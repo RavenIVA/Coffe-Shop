@@ -384,6 +384,117 @@ body{
     margin-top: 154px;
     margin-left: 150px;
 }
+/*end part 5*/
 
+.stories{
+    width: auto;
+    height: 1026px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #F4E3E9;
+    padding-top: 126px;
+}
+.title-stories{
+    width: 414px;
+    height: 114px;
+    margin: 0 772px 12px 254px;
+    color: var(--Grey-Two, #424242);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.2%; /* 57.216px */
+    white-space: nowrap;
+}
+.text-stories{
+    width: 313px;
+    height: 27px;
+    color: var(--Grey-Two, #424242);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 166px 27px 254px;
+}
+.story1{
+    display: flex;
+    flex-direction: column;
+    width: 349px;
+    height: 445px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+    margin: 0px 33px 149px 351px;
+}
+.title-story1{
+    display: inline-block;
+    color: #E43071;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.2%; /* 45.296px */
+    margin: 35px 155px 14px 27px;
+    white-space: nowrap;
+}
+.fake-box{
+    display: flex;
+    margin:0 32px 1px 27px;
+}
+.quote{
+    display: inline-block;
+    width: 29px;
+    height: 67px;
+    margin: 0 8px 190px 0;
+    color: #F8C5D7;
+    font-family: Times New Roman;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-story1{
+    display: inline-block;
+    width: 253px;
+    height: 242px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.fake-img{
+    display: flex;
+}
+.james-img{
+    display: block;
+    width: 59px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 317px;
+    background: lightgray 50% / cover no-repeat;
+    margin: 0px 17px 38px 66px;
+}
 
-
+.name-person{
+    color: #424242;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px; /* 188.889% */
+    margin: 0;
+}
+.mother{
+    color: #969BAB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 242.857% */
+}
